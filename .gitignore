@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+build/
+dist/
+*.spec
+
+# OCI Manager Specific
+oci-manager/data/keys/*
+!oci-manager/data/keys/.gitkeep
+oci-manager/data/logs/*
+!oci-manager/data/logs/.gitkeep
+oci-manager/data/state.json
+
+# Secrets
+.env
+.oci/
+
+# OS
+.DS_Store
+Thumbs.db

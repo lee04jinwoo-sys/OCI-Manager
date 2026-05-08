@@ -1,0 +1,5 @@
+oci
+requests
+paramiko
+python-dotenv
+tabulate
